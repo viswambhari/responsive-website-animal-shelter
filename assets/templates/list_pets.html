@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pets listed</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--<section id="available-pets-section">
+      <h2>Available Pets</h2>
+
+      <ul id="pets-list">
+        <li>"Name"</li>
+          
+      </ul>
+    </section>-->
+    <section id="available-pets-section">
+      <div class="heading">
+        <h1>What pets do we have?</h1>
+        <i class="ri-close-fill"></i>
+      </div>
+      <div class="toggle_buttons">
+        <button class="button" id="toggle-cats-button">Cats</button>
+        <button class="button" id="toggle-dogs-button">Dogs</button>
+      </div>
+      <table id="pets-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Breed</th>
+            <th>Age(in months)</th>
+          </tr>
+        </thead>
+
+        <tbody id="pets-table-body">
+          <!-- Pet data will be populated dynamically using JavaScript -->
+        </tbody>
+      </table>
+    </section>
+  </body>
+  <script src="/assets/js/pet-list.js"></script>
+</html>

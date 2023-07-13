@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <title>Give Away a Pet</title>
+  </head>
+  <body>
+    <div class="form">
+      <div class="heading">
+        <h1>Give Away</h1>
+        <i class="ri-close-fill"></i>
+      </div>
+      <form id="give-away-form" action="">
+        <p>What pet do you want to give away?</p>
+        <div class="form-control">
+          <label for="animal-type"> Pet Type </label>
+
+          <!-- Dropdown options -->
+          <select name="animal-type" id="animal-type" required>
+            <option value="">Select</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+          </select>
+        </div>
+
+        <div class="form-control">
+          <label for="breed">Breed </label>
+
+          <!-- Dropdown options -->
+          <select name="breed" id="breed" required>
+            <!--will be populated-->
+          </select>
+        </div>
+
+        <p>Fill in your details</p>
+
+        <div class="form-control">
+          <label for="name" id="label-name"> Full Name </label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </div>
+
+        <div class="form-control">
+          <label for="email" id="label-email"> Email </label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="form-control">
+          <label for="phone" id="label-phone"> Phone-no </label>
+          <input
+            type="tel"
+            id="phone"
+            placeholder="Enter your phone no."
+            required
+          />
+        </div>
+        <button class="button" type="submit" value="submit">
+          Request for Give Away
+        </button>
+      </form>
+    </div>
+  </body>
+  <script src="/assets/js/giveAway.js"></script>
+</html>

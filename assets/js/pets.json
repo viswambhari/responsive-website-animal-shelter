@@ -1,0 +1,20 @@
+{
+  "dogs": [
+    { "name": "Lyka", "breed": "Dasch", "age": 12 },
+    { "name": "Albie", "breed": "Beagle", "age": 3 },
+    { "name": "Happy", "breed": "Lab", "age": 5 },
+    { "name": "Ramu", "breed": "Golden Retriever", "age": 6 },
+    { "name": "Pinky", "breed": "Lab", "age": 7 },
+    { "name": "Sweetie  ", "breed": "Beagle", "age": 21 },
+    { "name": "Blacky", "breed": "Dasch", "age": 11 }
+  ],
+  "cats": [
+    { "name": "Jamie", "breed": "Siamese", "age": 2 },
+    { "name": "Oreo", "breed": "Persian", "age": 4 },
+    { "name": "Ginger", "breed": "Bengal", "age": 1 },
+    { "name": "Lyla", "breed": "Sphynx", "age": 3 },
+    { "name": "Peru", "breed": "Maine Coon", "age": 2 },
+    { "name": "Koshy", "breed": "Ragdoll", "age": 5 },
+    { "name": "Daisy", "breed": "Scottish Fold", "age": 2 }
+  ]
+}
